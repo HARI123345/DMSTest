@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Document Management System Test for automation test suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name=" Document Management System Test Cases(failed)">
+    <classes>
+      <class name="com.dms.qa.testcases.GroupsManagementPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCreateNewGroupsManagement"/>
+        </methods>
+      </class> <!-- com.dms.qa.testcases.GroupsManagementPageTest -->
+    </classes>
+  </test> <!--  Document Management System Test Cases(failed) -->
+</suite> <!-- Failed suite [Document Management System Test for automation test suite] -->
